@@ -11,7 +11,7 @@ def main():
     st.header("Developed by Codidioter")
     st.write("\n" * 70)  # Add empty lines to push the footer to the bottom
     
-    st.write("Upload correct format!", align="bottom")
+    st.write("Upload correct format!")
     st.markdown("---")  # Horizontal line
     uploaded = st.file_uploader("Choose an Image...", type=["jpeg","jpg","png"])
 
@@ -23,4 +23,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
