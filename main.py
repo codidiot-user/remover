@@ -8,7 +8,7 @@ def removebg(img):
 
 def main():
     st.title("QuantWeb Background Remover")
-    st.header("Developed by Codidioter")
+    st.header("Developed by Logesh")
     st.write("\n" * 70)  # Add empty lines to push the footer to the bottom
     
     st.write("Upload correct format!")
@@ -25,3 +25,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
